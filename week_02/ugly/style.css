@@ -1,3 +1,17 @@
-/* rgb is background color */
-/* rgba is background color with transparency */
-/* color is text color 
+body {
+    background-color: #00FF00;
+    background-image: url("background.jpg")
+}
+/* This is how I make the background of the heading have color*/
+h1 {
+    background-color: #664317;
+}
+/* This is how I make the background of you're heading with a highlight of a color of your choice */
+h2 {
+    background-color: RGB(255, 69, 0);
+}
+
+blockquote {
+    background-color: RGBA(255, 255, 0, 0.5);
+    
+}
