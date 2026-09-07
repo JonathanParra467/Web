@@ -1,0 +1,22 @@
+body{
+    max-width: 300px;
+    border: 150px, black;
+    margin: 150px;
+    border-radius: 8px;
+
+}
+
+footer{
+    background-color: rgb(220, 214, 106);
+    border-radius: 10px;
+    text-align: center;
+    padding: 1%;
+}
+
+a{
+    background-color: rgb(220, 214, 106);
+    border-radius: 10px;
+    text-align: center;
+    padding: 1%;
+    
+}
