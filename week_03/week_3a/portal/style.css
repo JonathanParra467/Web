@@ -1,22 +1,39 @@
-body{
+.gallery-pic{
     max-width: 300px;
-    border: 150px, black;
-    margin: 150px;
+    border-radius: 8%;
+    margin: 2px;
+    text-align: center;
+
+}
+img{
+    max-width: 300px;
+    border: 100px, black;
+    margin: 50px;
     border-radius: 8px;
+    background-color: black;
+    padding: 1%;
+    text-align: center;
+
+}
+body{
+    background-color: blanchedalmond;
+    margin: 2px;
 
 }
 
 footer{
     background-color: rgb(220, 214, 106);
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
     padding: 1%;
+
 }
 
 a{
     background-color: rgb(220, 214, 106);
+    margin: 30px;
     border-radius: 10px;
     text-align: center;
     padding: 1%;
-    
+
 }
