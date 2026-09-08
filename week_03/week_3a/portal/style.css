@@ -5,19 +5,22 @@
     text-align: center;
 
 }
+
 img{
     max-width: 300px;
-    border: 100px, black;
+    background-color: black;
     margin: 50px;
     border-radius: 8px;
-    background-color: black;
+    border: rgb(169, 240, 28);
     padding: 1%;
     text-align: center;
 
 }
+
 body{
     background-color: blanchedalmond;
     margin: 2px;
+    text-align: center;
 
 }
 
