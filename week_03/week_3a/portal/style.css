@@ -5,7 +5,7 @@
     text-align: center;
 
 }
-
+/* this allows me to add styles to my images like borders with color and align them together*/
 img{
     max-width: 300px;
     background-color: black;
@@ -16,7 +16,7 @@ img{
     text-align: center;
 
 }
-
+/* this allows me to change the bodys background and allows me to add modification's like changing colors for the background*/
 body{
     background-color: blanchedalmond;
     margin: 2px;
