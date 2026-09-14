@@ -1,0 +1,52 @@
+
+
+
+:root{
+    --primary-dark: rgb(4, 39, 39);
+    --accent: rgb(37, 23, 198);
+}
+
+body{
+    background-color:var(beige);
+
+}
+
+.flexbox-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.flex-container div {
+  background-color:var(#f1f1f1);
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.card{
+    background:var(--primary-dark);
+    color: var(--primary-dark);
+    width: 40px;
+    min-height: 150px;
+    color: var(--accent);
+    
+}
+
+.card img{
+    -webkit-box-shadow: 5px 5px 5px 5px rgba(24,5,46,23);
+    box-shadow: 5px 5px 5px 5px rgba(24,5,46,23);
+
+}
+
+h1{
+    color:var(primary-light);
+    text-align: center;
+    font-family: arail, helvetica, sans-serif;
+
+
+
+}
+

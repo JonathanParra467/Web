@@ -1,0 +1,213 @@
+
+<!-- ðŸ•¸ï¸ Emmet: In a blank .html file, type ! then Tab to generate this entire boilerplate -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic Layout</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- <body> contains everything visible in the browser window -->
+
+    <!-- ==========================================
+         SEMANTIC ELEMENTS
+         Semantic tags describe their purpose,
+         unlike <div> which has no meaning.
+         This helps screen readers, search engines,
+         and other developers understand your code.
+    =========================================== -->
+
+    <!-- <header> = top banner / masthead of the page or a section -->
+    <!-- ðŸ•¸ï¸ Emmet: header + Tab â†’ <header></header> -->
+    <header>
+      <h1>Masthead Section</h1>
+    </header>
+
+    <!-- <main> = the primary, unique content of the page (use only once) -->
+    <!-- ðŸ•¸ï¸ Emmet: main + Tab â†’ <main></main> -->
+    <main>
+      <!-- <aside> floated right inside <main> â€” like a callout box in a magazine article -->
+      <!-- float: right pulls it out of normal flow; surrounding content wraps to its left -->
+      <!-- ðŸ•¸ï¸ Emmet: aside + Tab â†’ <aside></aside> -->
+      <aside>
+        <h3>What is <code>&lt;aside&gt;</code>?</h3>
+        <p>
+          Think of a magazine sidebar: related to the article, but not essential
+          to the main story. An <code>&lt;aside&gt;</code> could hold quick
+          tips, related links, a pull quote, or a glossary. Here it is floated
+          right so the main content wraps around it.
+        </p>
+
+        <!-- <details> = collapsible section; <summary> = the always-visible clickable label -->
+        <!-- No JavaScript needed â€” the browser handles open/close natively -->
+        <!-- ðŸ•¸ï¸ Emmet: details>summary + Tab â†’ nests <summary> inside <details> in one shot -->
+        <details>
+          <summary>How does <code>float</code> work?</summary>
+          <p>
+            <code>float: right</code> removes an element from the normal
+            document flow and pushes it to the right edge of its container.
+            Other content then wraps around its left side â€” exactly like a photo
+            caption in a newspaper column.
+          </p>
+          <p>
+            The parent element needs <code>overflow: hidden</code> (set on
+            <code>main</code> in styles.css) to "contain" the float, otherwise
+            the parent collapses to zero height and the floated element sticks
+            out below it.
+          </p>
+        </details>
+      </aside>
+
+      <!-- styled in styles.css to add a background tint so it stands out from body text -->
+      <p>
+        <strong>ðŸ“Œ Assignment focus:</strong> Your project requires column
+        cards, CSS variables, and a hover tooltip. Everything else on this page
+        â€” <code>&lt;details&gt;</code>, <code>float</code>, HTML entities, and
+        <code>object-fit</code> â€” is here for exploration. You are not expected
+        to use them in your submission.
+      </p>
+
+      <p>
+        <strong>New tag this lesson:</strong> <code>&lt;code&gt;</code> is an
+        inline semantic element used to mark up code snippets inside regular
+        text. Browsers render it in a monospace font by default. You will see it
+        used throughout this page to highlight HTML tags, CSS properties, and
+        values.
+      </p>
+
+      <h2>
+        Layout Demo: <code>display: block</code> vs
+        <code>display: inline-block</code>
+      </h2>
+      <p>
+        By default, block elements like <code>&lt;div&gt;</code> stack
+        vertically â€” each one takes the full width of the page. Switching to
+        <code>display: inline-block</code> lets them sit side by side, like
+        words in a sentence. Open <strong>styles.css</strong> and toggle the
+        <code>display</code> property on <code>.column-card</code> to see the
+        difference.
+      </p>
+      <p>
+        <strong>The 48% bug:</strong> You might expect <code>width: 48%</code> Ã—
+        2 cards to fit on one row â€” but <code>inline-block</code> treats the
+        whitespace (newlines, spaces) between HTML tags as a real character.
+        That invisible character pushes the second card down. The fix is
+        dropping to <code>width: 47%</code>. Try it yourself: change
+        <code>47%</code> to <code>48%</code> in styles.css and watch it break.
+      </p>
+
+      <!-- <div> is a non-semantic block container â€” used here for layout only -->
+      <!-- ðŸ•¸ï¸ Emmet: div.column-card + Tab â†’ <div class="column-card"></div> -->
+      <div class="column-card">
+        <!-- Hover over the term to see the tooltip â€” .tooltiptext is the hidden popup -->
+        <!-- ðŸ•¸ï¸ Emmet: span.tooltip + Tab â†’ <span class="tooltip"></span> -->
+        <h2>
+          Learn
+          <span class="tooltip"
+            >CSS<span class="tooltiptext">Cascading Style Sheets</span></span
+          >
+        </h2>
+        <p>Card content goes here.</p>
+      </div>
+
+      <div class="column-card">
+        <!-- Same tooltip pattern applied to a second term â€”  repetition reinforces the structure -->
+        <h2>
+          Learn
+          <span class="tooltip"
+            >HTML<span class="tooltiptext"
+              >HyperText Markup Language</span
+            ></span
+          >
+        </h2>
+        <p>Card content goes here.</p>
+      </div>
+
+      <!-- ============================================================
+             PROFILE CARDS â€” also inline-block
+             Same display rule as above; swap to block to compare.
+        ============================================================ -->
+      <h2>Semantic Profile Cards</h2>
+      <p>
+        These cards use the <code>&lt;article&gt;</code> element instead of
+        <code>&lt;div&gt;</code>. The same
+        <code>display: inline-block</code> rule applies â€” the layout behavior is
+        identical, but the HTML now communicates <em>meaning</em>: this is
+        self-contained content that could stand alone on any page. The template
+        card below uses a placeholder image from
+        <a href="https://placehold.co" target="_blank" rel="noopener"
+          >placehold.co</a
+        >
+        â€” copy the whole <code>&lt;article&gt;</code> block and replace the
+        values to add more cards.
+      </p>
+      <!-- =====================================================
+             TEMPLATE CARD â€” copy and paste this block for each
+             person/item, then replace the placeholder values.
+             ===================================================== -->
+      <article class="card">
+        <header class="card-header">
+          <!-- placehold.co generates a placeholder image at any size you need -->
+          <!-- Format: https://placehold.co/WIDTHxHEIGHT â€” swap in a real image when ready -->
+          <img src="https://placehold.co/200x200" alt="Person Name" />
+          <h2>Person Name</h2>
+        </header>
+
+        <div class="card-body">
+          <p>Write a short bio or description here.</p>
+        </div>
+
+        <footer class="card-footer">
+          <p>Updated Month Year</p>
+        </footer>
+      </article>
+
+      <article class="card">
+        <!-- <header> inside <article> = the heading area for this card only -->
+        <!-- Semantic elements can be nested; context determines their role -->
+        <header class="card-header">
+          <!-- alt text describes the image for screen readers and broken-image fallback -->
+          <img src="images/card_01.jpg" alt="Ace Card" />
+          <h2>Jonathan J Parra</h2>
+        </header>
+
+        <!-- <div> used here because no semantic element fits a generic body section -->
+        <div class="card-body">
+          <p>
+            Im Jonathan and I really enjoy playing a variety of games and like to play tabletop games including magic the gathering and warhammer.
+          </p>
+        </div>
+
+        <!-- <footer> inside <article> = metadata or closing info for this card -->
+        <footer class="card-footer">
+          <p>Updated september 2026</p>
+        </footer>
+      </article>
+    </main>
+
+    <!-- <footer> = bottom of the page; typically holds copyright, nav, or credits -->
+    <footer>
+      <p><a href="../../index.html">Back to Student Portal</a></p>
+      <p>
+        <span class="tooltip"
+          >&copy;<span class="tooltiptext"
+            >&amp;copy; â€” HTML entity for the copyright symbol Â©</span
+          ></span
+        >
+        2026 Jonathan J Parra
+        <span class="tooltip"
+          >&mdash;<span class="tooltiptext"
+            >&amp;mdash; â€” HTML entity for an em dash â€”</span
+          ></span
+        >
+        developed in collaboration with GitHub Copilot (AI)
+      </p>
+    </footer>
+      <footer>
+      <p>Created by Dr. Meri Kasprak in AntiGravity with collaboration from GitHub Copilot (Gemini 3.6 Flash).</p>
+      <p><a href="../../index.html">🏚️ Home</a></p>
+    </footer>  </body>
+</html>
