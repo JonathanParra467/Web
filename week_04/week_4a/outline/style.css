@@ -1,19 +1,15 @@
+body{
+    background-color: beige;
+
+}
+
 li{
-    margin: 2px;
-    text-indent: 50%px;
-    padding: 2px;
-    height: 10%;
+    list-style-type: circle;
 
 }
 
-ul{
-    margin: 2px;
-    padding: 2px;
-    height: 10%;
-    list-style-type: decimal;
-}
-
-ol{
-    height: 30%;
+ol{ 
+    list-style-type: square;
 
 }
+
