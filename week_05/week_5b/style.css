@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+:root{
+    --dark: #562a1f;
+    --accent: #6467bc;
+
+}
+
+body{
+    background: var(--light);
+    color: var(--dark);
+    font-family: arial, Arial, Helvetica, sans-serif;
+
+}
+
+p{
+    background-color: rgb(22, 165, 165);
+    margin-left: 20px;
+
+}
+
+.hero-text{
+    display: flex; align-items: left;
+    flex-basis: 50%;
+    padding: 5%;
+    background-color: rgb(193, 193, 24);
+
+}
+
+.hero-img{
+    display: flex; align-items: right;
+    flex-basis: 50%;
+    background-color: rgb(193, 193, 24); 
+    margin-right: 50px;
+
+}
