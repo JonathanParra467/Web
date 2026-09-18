@@ -1,5 +1,5 @@
 :root {
-    --brand-color: #582c83;
+    --brand-color: #915dc6;
 } /* This is creating a variable named --brand-color at the root level (accessible everywhere) */
 * {
     box-sizing: border-box; /* Spacing reset */
@@ -7,7 +7,7 @@
 .column-card {
     display: inline-block;
     width: 50%;
-    border: 1px solid #ddd;
+    border: 1px solid #a99292;
     border-radius: 8px; /* Rounded corners */
     padding: 20px;
     margin: 1%;
@@ -26,7 +26,7 @@
     visibility: hidden;
     width: 180px;
     background-color: #8e0b0b;
-    color: #ffff;
+    color: #226bca;
     text-align: center;
     border-radius: 6px;
     padding: 8px;
