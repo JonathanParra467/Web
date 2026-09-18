@@ -1,6 +1,6 @@
 body{
     background-color: beige;
-
+    
 }
 
 li{
@@ -13,3 +13,7 @@ ol{
 
 }
 
+p{
+    list-style-type: square;
+
+}

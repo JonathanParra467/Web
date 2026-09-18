@@ -12,7 +12,6 @@
     padding: 20px;
     margin: 1%;
     height: auto;
-    
 
 }
 .tooltip {
@@ -21,12 +20,13 @@
     border-bottom: 1px dashed black;
     cursor: help;
     
+    
 }
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 180px;
     background-color: #8e0b0b;
-    color: #fff;
+    color: #ffff;
     text-align: center;
     border-radius: 6px;
     padding: 8px;
@@ -41,5 +41,11 @@
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
+    width: 2px;
 
 } /* This targets the nested .tooltiptext child element ONLY when the parent .tooltip element is hovered over */
+img{
+    width: 100px;
+    height: 100px;
+
+}
