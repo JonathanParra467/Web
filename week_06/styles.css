@@ -1,0 +1,18 @@
+:root{
+    --background-color: rgb(48, 48, 191);
+}
+
+body{
+    background-color: var(--background-color);
+
+}
+
+.photo_wall {
+    display: grid;
+    float: image;
+}
+
+.container div.header {
+    text-align: center;
+    
+}

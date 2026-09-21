@@ -1,51 +1,86 @@
 :root {
-    --brand-color: #915dc6;
-} /* This is creating a variable named --brand-color at the root level (accessible everywhere) */
+    --primary-blue: #2c4be2;
+    --border-black: rgb(22, 6, 6);
+    --padding: 20px;
+    --margin: 10px;
+    --background-color: #ba1b1b;
+    --text-shadow: rgba(212, 239, 39, 0.907);
+
+}
+
 * {
-    box-sizing: border-box; /* Spacing reset */
-} /* The asterisk (*) is a universal selector targeting all tags; box-sizing makes width calculations include border and padding */
-.column-card {
-    display: inline-block;
-    width: 50%;
-    border: 1px solid #a99292;
-    border-radius: 8px; /* Rounded corners */
-    padding: 20px;
-    margin: 1%;
-    height: auto;
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
 
 }
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dashed black;
-    cursor: help;
-    
-    
+.container{
+    width: 90%;
+    background: black;
+    margin: 10px auto;
+    overflow: auto;
 }
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 180px;
-    background-color: #8e0b0b;
-    color: #226bca;
+.card{
+    width: 48%;
+    padding: 10px;
+    background:whitesmoke;
+    color: blue;
+    border: 2px solid blue;
+    margin: 20px auto;
+    border-radius: 20px;
+    display: inline-block;
+    font-family:'Courier New', Courier, monospace;
+    font-size:larger;
+}
+
+header h1{
+    font-size:xx-large;
+    text-shadow: var(--text-shadow);
+    padding: 15;
+    border-radius: 20px;
+    margin: 10px;
     text-align: center;
-    border-radius: 6px;
-    padding: 8px;
-    position: absolute;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -90px;
-    opacity: 0;
-    transition: opacity 0.3s;
 
-} /* This targets the .tooltiptext element ONLY when it is nested inside an element with the .tooltip class */
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-    width: 2px;
+}
+ h2{
+    display: inline-block;
+    width: 48%;
+    border-radius: 8px;
+    font-size: xx-large;
+    margin: 6px;
+    border:5px, solid, #2c4be2;
+}
 
-} /* This targets the nested .tooltiptext child element ONLY when the parent .tooltip element is hovered over */
-img{
-    width: 100px;
-    height: 100px;
+h3{
+    display: inline-block;
+    width: 48%;
+    border-radius: 8px;
+    font-size: xx-large;
+    margin: 6px;
+    border:5px, solid, #2c4be2;
 
+}
+
+.tooltip {
+    padding: 15;
+    border-radius: 20px;
+    font-size: xx-large;
+    text-align: right;
+    margin: 10px;
+    border: 5px, solid, #2c4be2;
+}
+
+img {
+    margin: 10px;
+    border:5px, solid, #2c4be2;
+    border-radius: 20px;
+    margin: 10px;
+    width: 50%;
+    float: right;
+
+}
+
+p{
+    width: 90%;
+    margin: 10px auto;
 }
