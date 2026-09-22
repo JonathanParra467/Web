@@ -4,7 +4,7 @@
     --padding: 20px;
     --margin: 10px;
     --background-color: #ba1b1b;
-    --text-shadow: rgba(212, 239, 39, 0.907);
+    --text-shadow: rgba(12, 14, 1, 0.907);
 
 }
 
@@ -26,7 +26,7 @@
     display: inline-block;
     font-family:'Times New Roman', Times, serif;
     font-size:xx-large;
-    
+
 }
 
 header h1{
