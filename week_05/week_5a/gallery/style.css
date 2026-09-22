@@ -3,7 +3,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     max-width: 100%; height: auto;
-
+    justify-content:space-around;
 }
 
 .card img{
@@ -16,6 +16,7 @@
     display: flex;
     float: right;
     flex-wrap: wrap;
+    
 }
 
 body{
