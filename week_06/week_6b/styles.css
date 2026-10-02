@@ -1,35 +1,34 @@
-.gallery-container {
+.gallery_container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
-    grid-row: span 2;
     margin: 20px;
     padding: 10px;
-    border: 10px, solid, black;
+    border: 10px solid black;
     border-radius: 5%;
     background-color: blue;
-    place-items: center;
+
 }
 
-.main-display {
+
+.main_display {
     display: grid;
     grid-column: 1 / -1;
     margin: 20px;
     padding: 10px;
-    border: 10px, solid, black;
+    border: 10px solid black;
     border-radius: 5%;
     background-color: green;
     place-items: center;
+
 }
 
 body {
     background-color: aquamarine;
-    cursor: pointer;
-
+    
 }
 
 * {
-    place-items: center;
     flex-wrap: wrap;
     
 }
@@ -37,9 +36,24 @@ body {
 img {
     margin: 20px;
     padding: 10px;
-    border: 10px, solid, black;
+    border: 10px solid black;
     border-radius: 7%;
     background-color: rgb(204, 11, 11);
     place-items: center;
+    display: grid block;
+    max-width: 100%;
+
+}
+
+.thumb {
+    display: grid center block;
+    cursor: pointer;
+    max-width: 100%;
+    
+}
+
+
+footer {
+    cursor: pointer;
     
 }
