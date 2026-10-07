@@ -1,4 +1,26 @@
-.photo {
+.avatar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    @media screen {min-width: 700px};
+    border: 20px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    max-width: 50px;
     
+}
 
+.card {
+    flex-direction: row;
+    text-align: left;
+    border: 10px;
+    margin: 12px;
+    text-align: center;
+    padding: 15px;
+
+}
+
+img {
+    border-radius: 50px;
+    float: center;
 }
