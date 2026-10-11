@@ -1,6 +1,6 @@
 .step {
     text-align: center;
-
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .define {
@@ -27,6 +27,7 @@ img {
     border: 10px solid purple;
     border-radius: 10px;
     min-width: 400px; max-height: auto;
+    cursor: pointer;
 
 }
 
@@ -34,5 +35,5 @@ header {
     background-color: rgb(133, 151, 222);
     border: 10px solid purple;
     border-radius: 8px;
-
+    font-family: 'Courier New', Courier, monospace;
 }

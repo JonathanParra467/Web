@@ -20,7 +20,9 @@ img {
     max-width: 600px;
     border: 5px solid purple;
     border-radius: 8px;
-    
+    cursor: pointer;
+    margin: 30px;
+
 }
 
 body {
@@ -35,12 +37,14 @@ h1, h2, h3, header, p {
     font-size: x-large;
     padding: 5px;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 .EE {
     align-items: center;
     text-align: center;
-
+    
 }
 
 .semi {

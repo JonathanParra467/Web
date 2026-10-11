@@ -4,6 +4,7 @@ table{
     border-collapse:collapse;
     width: 90%;
     margin: 20px auto;
+    
 }
 
 td{
@@ -13,6 +14,7 @@ td{
     height: 110px;
     text-align: left;
     vertical-align: top;
+
 }
 
 th{
