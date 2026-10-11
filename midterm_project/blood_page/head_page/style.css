@@ -30,7 +30,7 @@ body {
     
 }
 
-h1, h2, h3, header, p {
+h1, h2, h3, h4, header, p {
     background-color: #ffff00;
     border-radius: 5px;
     border: 4px;
