@@ -1,0 +1,38 @@
+.step {
+    text-align: center;
+
+}
+
+.define {
+    text-align: center;
+    font-size: x-large;
+    background-color: rgb(162, 178, 235);
+    border-radius: 15px;
+    border: 10px solid rgb(164, 36, 164);
+}
+
+body {
+    background-color: rgb(96, 96, 226);
+
+}
+.semi {
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    
+}
+
+img {
+    align-items: center;
+    border: 10px solid purple;
+    border-radius: 10px;
+    min-width: 400px; max-height: auto;
+
+}
+
+header {
+    background-color: rgb(133, 151, 222);
+    border: 10px solid purple;
+    border-radius: 8px;
+
+}

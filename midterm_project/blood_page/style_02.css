@@ -1,0 +1,26 @@
+:root {
+    --background-color: rgba(51, 51, 234, 0.868);
+    --border-radius: solid blueviolet;
+
+}
+
+.blood {
+    text-align: center;
+    border-radius: 20px solid rgb(169, 169, 10);
+    border: 15px;
+    margin: 10px;
+
+}
+
+body{
+    background-color: var(--background-color);
+    
+}
+
+img {
+    min-height: 300px; max-width: auto;
+    border: 15px var(--border-radius);
+    border-radius: 20px;
+    margin: 10px;
+    
+}

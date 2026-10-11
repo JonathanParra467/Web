@@ -1,0 +1,50 @@
+:root {
+     --background-color: rgb(40, 40, 122);
+     --border-color: rgb(10, 80, 31);
+     --padding-color: rgb(39, 11, 100);
+}
+
+.key {
+    border-radius: 10px;
+    align-items: center;
+    padding: 6px solid var(--padding-color);
+    border-radius: 7px;
+    margin: 6px solid var(--border-color);
+    border: 5px;
+    text-align: center;
+    
+}
+
+img {
+    max-height: 600px;
+    max-width: 600px;
+    border: 5px solid purple;
+    border-radius: 8px;
+    
+}
+
+body {
+    background-color: var(--background-color);
+    
+}
+
+h1, h2, h3, header, p {
+    background-color: #ffff00;
+    border-radius: 5px;
+    border: 4px;
+    font-size: x-large;
+    padding: 5px;
+    text-align: center;
+}
+
+.EE {
+    align-items: center;
+    text-align: center;
+
+}
+
+.semi {
+    align-items: center;
+    text-align: center;
+    
+}
