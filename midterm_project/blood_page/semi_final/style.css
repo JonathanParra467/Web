@@ -37,3 +37,8 @@ header {
     border-radius: 8px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+nav {
+    background-color: rgb(218, 83, 83);
+    font-size: x-large;
+}

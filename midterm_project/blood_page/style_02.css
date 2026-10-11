@@ -34,3 +34,8 @@ header, p {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
+
+nav {
+    background-color: rgb(218, 83, 83);
+
+}
