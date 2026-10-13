@@ -18,7 +18,7 @@ body{
 }
 
 img {
-    min-height: 300px; max-width: auto;
+    max-width: 100%; height: auto;
     border: 15px var(--border-radius);
     border-radius: 20px;
     margin: 10px;
@@ -26,7 +26,7 @@ img {
 
 }
 
-header, p {
+header, p, footer {
     background-color: rgb(133, 151, 222);
     border: 10px solid purple;
     border-radius: 8px;

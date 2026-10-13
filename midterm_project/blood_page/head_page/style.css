@@ -30,7 +30,7 @@ body {
     
 }
 
-h1, h2, h3, h4, header, p {
+h1, h2, h3, h4, header, p, footer{
     background-color: #ffff00;
     border-radius: 5px;
     border: 4px;
@@ -38,7 +38,8 @@ h1, h2, h3, h4, header, p {
     padding: 5px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-
+    max-width: 100%; height: auto;
+    
 }
 
 .EE {

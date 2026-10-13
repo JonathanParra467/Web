@@ -26,12 +26,12 @@ img {
     align-items: center;
     border: 10px solid purple;
     border-radius: 10px;
-    min-width: 400px; max-height: auto;
+    max-width: 100%; height: auto;
     cursor: pointer;
-
+    
 }
 
-header {
+header, footer {
     background-color: rgb(133, 151, 222);
     border: 10px solid purple;
     border-radius: 8px;
