@@ -6,7 +6,7 @@
 .define {
     text-align: center;
     font-size: x-large;
-    background-color: rgb(162, 178, 235);
+    background-color: rgb(246, 246, 249);
     border-radius: 15px;
     border: 10px solid rgb(164, 36, 164);
 }
@@ -32,14 +32,16 @@ img {
 }
 
 header, footer {
-    background-color: rgb(133, 151, 222);
+    background-color: rgb(244, 244, 245);
     border: 10px solid purple;
     border-radius: 8px;
     font-family: 'Courier New', Courier, monospace;
+
 }
 
 nav {
     background-color: rgb(248, 245, 245);
     font-size: x-large;
+    
 
 }
