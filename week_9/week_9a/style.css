@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+.col{
+    margin: 10px 20px;
+}
+
+.container, .container-fluid{
+    margin: 10px auto;
+
+}
+
+h1 {
+    text-align: center;
+
+}
