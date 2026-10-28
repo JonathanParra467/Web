@@ -1,0 +1,14 @@
+.grid_container{
+    border: 20px solid black;
+    border-radius: 15 solid rgb(194, 194, 22);
+    background-color: rgb(35, 153, 231);
+}
+
+.map_1, .map_2, .map_3, .map_4, .map_5{
+    text-align: center;
+    font-size: xx-large;
+    display: grid;
+    grid-template-columns: repeat (5, 1fr);
+    gap: 15px;
+
+}
