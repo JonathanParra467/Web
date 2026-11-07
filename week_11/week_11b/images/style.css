@@ -1,6 +1,22 @@
-figcaption {
-    background-color: rgb(212, 199, 199);
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+}
+
+img{   
+    max-width: 600px; max-height: 600px;
     text-align: center;
-    font-size: xx-large;
-    
+    border: 20px solid black;
+    border-radius: 15px;
+}
+footer{
+    padding: 2px;
+    border-radius: 2px;
+    border: 10px, solid lightskyblue;
+    background-color: rgba(23, 163, 32, 0.796);
+    width: 125px; height: 50px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }

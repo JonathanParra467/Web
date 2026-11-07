@@ -7,17 +7,52 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>The DOM & JavaScript</h1>
 <div class="grid-container">
-    <img id="pige_1" src="pigeon_1.jpg" alt="a young pigeon with dark colors">
-     <figcaption id="caption">This is a young pigeon with dar colors</figcaption>
-    <img id="pige_2" src="pigeon_2.jpg" alt="a mid age pigeon with bright colors">
-    <figcaption id="caption">A pigeon simply looking away from the camerad</figcaption>
-    <img id="Pige_3" src="pigeon_3.jpg" alt="a photo of a pigeon with eye closed">
+    <div class="pigeon_1"><figure>
+    <img id="large" src="pigeon_1.jpg" alt="a young pigeon with dark colors" onclick = "change('pigeon_1.jpg','This is a young pigeon with dark colors')">
+    <figcaption id="caption">This is a young pigeon with dark colors</figcaption>
+    </figure>
+    </div>
+
+    </figure>
+    <div class="pigeon_2.">
+    <figure>
+    <img id="large" src="pigeon_2.jpg" alt="a mid age pigeon with bright colors" onclick="change('pigeon_2.jpg','A pigeon simply looking away from the camera')">
+    <figcaption id="caption">A pigeon simply looking away from the camera</figcaption>
+    </figure>
+    </div>
+
+    
+    <div class="pigeon_3.">
+    <figure>
+    <img id="large" src="pigeon_3.jpg" alt="a photo of a pigeon with eye closed" onclick = "change('pigeon_3.jpg','This pigeon is closing its eyes')">
     <figcaption id="caption">This pigeon is closing its eyes</figcaption>
-    <img id="pige_4" src="pigeon_4.jpg" alt="a pigeon showing of her chest">
+    </figure>
+    </div>
+
+    <div class="pigeon_4">
+    <figure>
+    <img id="large" src="pigeon_4.jpg" alt="a pigeon showing of her chest" onclick = "change('pigeon_4.jpg','A pigeon showing off its chest')">
     <figcaption id="caption">A pigeon showing off its chest</figcaption>
-    <img id="pige_5" src="pigeon_5.jpg" alt="a pigeon looking at the camera">
+    </figure>
+    </div>
+
+    <div class="pigeon_5"><figure>
+    <img id="large" src="pigeon_5.jpg" alt="a pigeon looking at the camera" onclick="change('pigeon_5.jpg','A pigeon looking at the camera')">
     <figcaption id="caption">A pigeon looking at the camera</figcaption>
+    </figure>
+    </div>
+    <div class="bird">
+    <figure>
+    <img id="large" src="pigeon_1.jpg" alt="a young pigeon with dark colors" onclick = "change('pigeon_1.jpg','This is a young pigeon with dark colors')">
+    <figcaption id="caption">This is a young pigeon with dark colors</figcaption>
+    </figure>
+    </div>
 </div>
+    <button onclick="setBgColor('white')">white</button>
+    <button onclick="setBgColor('yellow')">yellow</button>
+<footer><a href="../../../index.html">Head to Home Page</a></footer>
+<script src="script.js"></script>
 </body>
 </html>
