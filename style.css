@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(45, 45, 246);
+}
+a {
+    color: azure;
+    background-color: rgb(42, 32, 106);
+    margin: 100px;
+    border: solid rgb(14, 112, 114) 170px;
+    
+}
+
+summary {
+    color: azure;
+    background-color: rgb(42, 32, 106);
+    margin: 100px;
+    border: solid rgb(154, 12, 12) 170px;
+
+}
+
+h1 {
+    background-color: rgb(42, 32, 106);
+    margin: 80px;
+    border: solid rgb(155, 17, 17) 17px;
+    text-align: center;
+    
+}
