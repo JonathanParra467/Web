@@ -1,7 +1,25 @@
 .root{
-    --background-color: rgb(30, 30, 233);
+    --background: purple;
     --border-color: rgba(229, 30, 30, 0.935);
     --padding-color: white;
 
+}
+
+p {
+    text-align: center;
+    font-size: xx-large;
+    background-color: blueviolet;
+    border-radius: 15px solid blueviolet;
+}
+
+body{
+    background-color: purple;
+
+}
+
+.photos {
+    width: 300px; height: auto;
+    border: blue solid 10px;
+    text-align: center;
 }
 
