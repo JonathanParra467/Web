@@ -1,6 +1,25 @@
-.root{
-    --background-color: rgb(30, 30, 233);
-    --border-color: rgba(134, 34, 233, 0.935);
-    --padding-color: white;
+:root{
+    --background: purple;
+    --border-color: rgb(206, 137, 10);
+    --border-radius-color: rgb(227, 184, 9);
+
+}
+
+p, h1{
+    text-align: center;
+    font-size: xx-large;
+    background-color: var(--border-color);
+    border-radius: 15px solid var(--border-radius-color);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    margin: 20px;
+}
+
+img {
+    max-width: 300px; max-height: 300px;
+    padding: 17px;
+    border: 15px solid var(--border-color);
+    border-radius: 19px;
+    display: flex;
     
 }
