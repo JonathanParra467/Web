@@ -21,14 +21,14 @@ img {
     border: 15px solid var(--border-color);
     border-radius: 19px;
     display: flex;
-    
+
 }
 
 .container {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 7px;
-    
+
 }
 
 body {

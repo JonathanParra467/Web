@@ -1,25 +1,37 @@
 :root{
-    --background: purple;
+    --background: black;
     --border-color: rgb(206, 137, 10);
     --border-radius-color: rgb(227, 184, 9);
 
 }
 
-p, h1{
+p, h1, h2 {
     text-align: center;
     font-size: xx-large;
     background-color: var(--border-color);
     border-radius: 15px solid var(--border-radius-color);
     font-family: 'Times New Roman', Times, serif;
-    padding: 30px;
-    margin: 20px;
+    padding: 20px;
+    margin:10px;
 }
 
 img {
-    max-width: 300px; max-height: 300px;
-    padding: 17px;
+    max-width: 620px; max-height: 620px;
+    padding: 10px;
     border: 15px solid var(--border-color);
-    border-radius: 19px;
-    display: flex;
+    border-radius: 15px var(--border-radius-color);
+    margin: 15px;
     
+}
+
+body {
+    background-color: var(--background);
+
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
 }

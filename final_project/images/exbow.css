@@ -1,5 +1,5 @@
 :root{
-    --background: purple;
+    --background: black;
     --border-color: rgb(206, 137, 10);
     --border-radius-color: rgb(227, 184, 9);
 
@@ -17,25 +17,28 @@ p, h1, h2, h3, h4 {
 
 img {
     max-width: 300px; max-height: 300px;
-    padding: 17px;
-    border: 15px solid var(--border-color);
-    border-radius: 19px;
+    padding: 12px;
+    border: 8px solid var(--border-color);
+    border-radius: 10px;
+    
     
 }
 
 body {
-    background-color: black;
+    background-color: var(--background);
+
 }
 
-.photos {
+.container {
     display: flex;
-    gap: 25px;
+    flex-direction: row;
+    
 }
 
 li {
     font-family: 'Times New Roman', Times, serif;
-    padding: 10px;
-    margin: 5px;
+    padding: 2px;
+    margin: 3px;
     background-color: var(--border-color);
     border-radius: 5px solid var(--border-radius-color);
     text-align: center;
